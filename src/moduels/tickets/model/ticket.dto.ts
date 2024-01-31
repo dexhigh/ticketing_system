@@ -15,10 +15,6 @@ export class UpdateTicketDTO {
 
   @ApiProperty()
   @IsNotEmpty()
-  userId: number;
-
-  @ApiProperty()
-  @IsNotEmpty()
   seatNumber: number;
 
   @ApiProperty()
